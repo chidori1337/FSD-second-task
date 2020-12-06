@@ -138,16 +138,24 @@ body {
 
 .header__sign-in, .header__sign-up {
   padding: 10px 20px;
-  margin: 0 10px;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
   line-height: 15px;
   border-radius: 22px;
-  background: #fff;
+}
+
+.header__sign-in-border-wrap {
+  position: relative;
+  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 22px;
+  margin: 10px;
+  padding: 1px;
 }
 
 .header__sign-in {
+  background: #fff;
   color: #BC9CFF;
 }
 
@@ -155,4 +163,5 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));
   background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
   color: #fff;
+  margin: 10px;
 }

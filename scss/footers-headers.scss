@@ -50,7 +50,6 @@ body {
     &__sign-in,
     &__sign-up {
         padding: 10px 20px;
-        margin: 0 10px;
 
         font-size: 12px;
         text-transform: uppercase;
@@ -58,17 +57,31 @@ body {
         line-height: 15px;
 
         border-radius: 22px;
+    }
 
-        background: #fff;
+    &__sign-in-border-wrap {
+        position: relative;
+
+        background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+
+        border-radius: 22px;
+
+        margin: 10px;
+        padding: 1px;
     }
 
     &__sign-in {
+        background: #fff;
+
         color: #BC9CFF;
     }
 
     &__sign-up {
         background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+
         color: #fff;
+
+        margin: 10px;
     }
 
     &__header {}
