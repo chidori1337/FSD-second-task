@@ -1,2 +1,75 @@
 @import "normalize";
 
+body {
+    background: #E5E5E5;
+}
+
+.header {
+    background: #ffffff;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+
+    padding: 18px 0;
+
+    &__content {
+        max-width: 1160px;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: space-between ;
+    }
+
+    &__section {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {}
+
+    &__nav {
+    }
+
+    &__menu {
+        display: flex;
+    }
+
+    &__link {
+        font-size: 14px;
+        color: #1F2041;
+        line-height: 17,07px;
+        
+        opacity: 0.5;
+
+        padding: 0 10px;
+
+        &:first-child {
+            font-weight: 700;
+            opacity: 0.75;
+        }
+    }
+
+    &__sign-in,
+    &__sign-up {
+        padding: 10px 20px;
+        margin: 0 10px;
+
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: 15px;
+
+        border-radius: 22px;
+
+        background: #fff;
+    }
+
+    &__sign-in {
+        color: #BC9CFF;
+    }
+
+    &__sign-up {
+        background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+        color: #fff;
+    }
+
+    &__header {}
+}
